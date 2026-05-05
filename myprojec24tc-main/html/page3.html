@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Thiết kế form Đăng ký</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+    <div class="container">
+        <form id="frmRegister">
+            <h3 class="title">đăng ký thành viên câu lạc bộ</h3>
+            
+            <div class="form-group">
+                <label class="label">Họ tên</label>
+                <input class="form-control" type="text" id="txtHoten" name="txtHoten">
+            </div>
+
+            <div class="form-group">
+                <label class="label">MSSV</label>
+                <input class="form-control" type="text" id="txtMSSV" name="txtMSSV">
+            </div>
+
+            <div class="form-group">
+                <label class="label">Email</label>
+                <input class="form-control" type="email" id="txtEmail" name="txtEmail">
+            </div>
+
+            <div class="form-group">
+                <label class="label">Mã lớp</label>
+                <select class="form-control" id="slLop" name="slLop">
+                    <option value="">-- Chọn lớp --</option>
+                    <option value="DA22TTA">DA22TTA</option>
+                    <option value="DA22TTB">DA22TTB</option>
+                    <option value="DA22TTC">DA22TTC</option>
+                    <option value="DA22TTD">DA22TTD</option>
+                    <option value="DA23TTA">DA23TTA</option>
+                    <option value="DA23TTB">DA23TTB</option>
+                    <option value="DA23TTC">DA23TTC</option>
+                    <option value="DA23TTD">DA23TTD</option>
+                    <option value="DA24TTA">DA24TTA</option>
+                    <option value="DA24TTB">DA24TTB</option>
+                    <option value="DA24TTC">DA24TTC</option>
+                    <option value="DA24TTD">DA24TTD</option>
+                    <option value="DA25TTA">DA25TTA</option>
+                    <option value="DA25TTB">DA25TTB</option>
+                    <option value="DA25TTC">DA25TTC</option>
+                    <option value="DA25TTD">DA25TTD</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="label">Giới tính</label>
+                <div class="input-group">
+                    <input type="radio" name="gender" id="nam" value="Nam">
+                    <label for="nam">Nam</label>
+                    <input type="radio" name="gender" id="nu" value="Nữ">
+                    <label for="nu">Nữ</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="label">Sở thích</label>
+                <div class="input-group">
+                    <div class="row-checkbox">
+                        <input type="checkbox" id="bd">
+                        <label for="bd">Bóng đá</label>
+                        <input type="checkbox" id="cl">
+                        <label for="cl">Cầu lông</label>
+                        <input type="checkbox" id="cv">
+                        <label for="cv">Cờ vua</label>
+                    </div>
+                    <div class="row-checkbox">
+                        <input type="checkbox" id="xp">
+                        <label for="xp">Xem phim</label>
+                        <input type="checkbox" id="ds">
+                        <label for="ds">Đọc sách</label>
+                        <input type="checkbox" id="cg">
+                        <label for="cg">Chơi game</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input class="button" type="submit" value="Đăng ký">
+                <input class="button" type="reset" value="Thoát">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

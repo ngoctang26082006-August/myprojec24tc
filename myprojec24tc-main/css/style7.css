@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #8abfc9;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+    background: rgb(121, 212, 225);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.actions {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+}
+
+.remove-btn {
+    background: rgb(44, 232, 229);
+    color: rgb(11, 238, 231);
+    border: none;
+    padding: 5px 8px;
+}

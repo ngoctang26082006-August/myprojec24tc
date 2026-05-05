@@ -1,0 +1,48 @@
+#{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+div.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(167, 190, 216);
+    padding: 30px;
+}
+
+div.container form {
+    background-color: rgb(116, 141, 164);
+    padding: 15px;
+}
+
+form h3.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(3, 8, 11);
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+.form-group {
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1px;
+}
+
+.label {
+    color: rgb(28, 60, 67);
+}
+
+.button {
+    background-color: rgb(36, 66, 78);
+    color: rgb(57, 143, 146);
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 5px;
+}
